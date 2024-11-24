@@ -27,22 +27,26 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/FFLANEE.git
 cd FFLANEE
+```
 Ensure you have the necessary dependencies installed:
 
-bash
-Copiar código
+```bash
 pip install -r requirements.txt
-Usage
+```
+
+### Usage
+
 To run FFLANEE, simply execute the Python script:
 
-bash
-Copiar código
+```bash
 sudo python3 fflanee.py
-Main Menu
+```
+
+### Main Menu
+
 Upon launching, the user will be presented with the following main menu:
 
-css
-Copiar código
+```bash
 {1}--Web Pentesting
 {2}--Network Pentesting
 {3}--Wireless Pentesting
@@ -50,49 +54,69 @@ Copiar código
 {5}--DoS & DDoS
 {6}--Security Hardening
 {0}--Exit
-Web Pentesting Menu
-The Web Pentesting section offers the following options:
+```
 
-css
-Copiar código
+### Web Pentesting Menu
+
+```bash
 {1}--Web Crawler
 {2}--TCP Scan
 {3}--Port Scan
 {0}--Back to Main Menu
 {99}--Exit
-Web Crawler: Extract URLs from a given website.
-TCP Scan: Perform a TCP scan to detect active services on a given IP.
-Port Scan: Scan specific ports on a target to check for open ports.
-Network Pentesting Menu
+```
+**1.** **Web Crawler:** Extract URLs from a given website
+
+**2.** **TCP Scan:** Perform a TCP scan to detect active services on a given IP
+
+**3.** **Port Scan:** Scan specific ports on a target to check for open ports
+
+### Network Pentesting Menu
+
 The Network Pentesting section includes:
 
-css
-Copiar código
+```css
 {1}--Ping Sweep
 {2}--TCP Scan
 {3}--Port Scan
 {0}--Back to Main Menu
 {99}--Exit
-Ping Sweep: Scan a range of IPs to check which are alive.
-TCP Scan: Scan specific TCP ports to identify open services.
-Port Scan: Scan ports for open services on a specific IP.
-DoS & DDoS Menu
+```
+**1.** **Ping Sweep:** Scan a range of IPs to check which are alive
+
+**2.** **TCP Scan:** Scan specific TCP ports to identify open services
+
+**3.** **Port Scan:** Scan ports for open services on a specific IP
+
+### DoS & DDoS Menu
+
 This section lets you perform DoS or DDoS attacks. (Use responsibly.)
 
-Security Hardening Menu
-This section helps to apply basic security hardening measures to improve system security.
+### Security Hardening Menu
 
-Dependencies
-requests: For making HTTP requests to websites.
-beautifulsoup4: For parsing HTML and extracting data.
-socket: For networking operations like port scanning and TCP scans.
-threading: For multi-threading operations like Ping Sweep, TCP Scan, etc.
-collections: For managing ordered dictionaries during scans.
-time: For timing operations.
-Disclaimer
-FFLANEE is a penetration testing tool created for educational and ethical hacking purposes only. Always have permission before testing systems that you do not own. Unauthorized access to computer systems is illegal and punishable by law.
+This section helps to apply basic security hardening measures to improve system security
 
-rust
-Copiar código
+### Dependencies
+
+**- requests:** For making HTTP requests to websites
+
+**- beautifulsoup4:** For parsing HTML and extracting data
+
+**- socket:** For networking operations like port scanning and TCP scans
+
+**- threading:** For multi-threading operations like Ping Sweep, TCP Scan, etc
+
+**- collections:** For managing ordered dictionaries during scans
+
+**- time:** For timing operations
+
+### Disclaimer
+
+**FFLANEE** is a penetration testing tool created for educational and ethical hacking purposes only. Always have permission before testing systems that you do not own. Unauthorized access to computer systems is illegal and punishable by law
+
+```rust
 
 This README includes detailed sections for installation, usage, and description of each feature in the tool, making it suitable for GitHub.
+
+```
+
