@@ -25,7 +25,7 @@ FFLANEE is a powerful security tool designed to assist security professionals wi
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/FFLANEE.git
+git clone https://github.com/SekloSec/FFLANEE.git
 cd FFLANEE
 ```
 Ensure you have the necessary dependencies installed:
