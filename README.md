@@ -1,26 +1,40 @@
-# Welcome to My Cybersecurity Projects Repository! 🔐
+# FELKTEK
+This project is a simple implementation of the Caesar encryption and decryption algorithm using HTML, CSS, and JavaScript. Caesar cipher is a type of substitution encryption that replaces each letter in the plaintext with a letter that is a specified number of positions ahead or behind in the alphabet
 
-Welcome to my personal repository where I showcase various cybersecurity tools and projects. Each project is organized into separate branches to keep things clean, modular, and easy to navigate. This repository is a collection of my ongoing and completed work in the world of cybersecurity, focusing on penetration testing, ethical hacking, vulnerability research, and security automation.
+## How to Use
+To use FELKTEK's Caesar encryption/decryption tool, follow these steps:
 
-### 🛠️ **Repository Structure**:
-- **Main Branch**: The main branch contains the stable versions of each project. This is where you’ll find the core tools and features that are ready for use or contribution.
-- **Project-Specific Branches**: Each project has its own dedicated branch. As I develop new features, fix bugs, or experiment with new ideas, I work in a separate branch to keep the main branch stable and production-ready.
-- **Feature Branches**: These branches are used to develop specific features, updates, or improvements to existing projects. Once a feature is completed, it will be merged into the main branch.
-- **Beta Branches**: If you’re interested in trying out experimental or in-progress features, check out the beta branches. These might contain unfinished work or cutting-edge features.
+Clone the repository or download the source files
+1. Open the index.html file in your web browser
+2. Select the desired operation ("Encrypt" or "Decrypt") using the radio button
+3. Enter the shift value, which indicates how many positions the letters should be moved
+4. Specify the length of the alphabet using the modulus value
+5. Choose the letter case option you want to apply: keep case, lowercase, or uppercase
+6. Optionally, select the foreign key to remove symbols if desired
+7. Enter the text you want to encrypt or decrypt in the input field provided
+   
+Click the "Submit" button.
+The result will be displayed in the output section
 
-### 📜 **What You'll Find**:
-- **Penetration Testing Tools**: Tools built to help assess and improve security, including web app security, network scanning, and more.
-- **Vulnerability Exploits**: Proof-of-concept exploits that demonstrate common security flaws and how to mitigate them.
-- **Automation Scripts**: Scripts for automating penetration testing tasks, vulnerability scanning, and information gathering.
-- **Security Research**: In-depth studies and research on vulnerabilities, malware, and cyber threats.
+## Example
+### Encryption:
+If you want to encrypt the message "HELLO" with an offset of 3, the ciphertext will be "KROD"
 
-Feel free to explore the branches, contribute, or open issues if you find anything that could be improved. I encourage collaboration and welcome any contributions to make these projects even better.
+### Decryption:
+To decrypt the ciphertext "KROD" with an offset of 3, the plaintext "HELLO" will be retrieved
 
-### 📂 **Getting Started**:
-1. Clone the repository:  
-   `git clone https://github.com/yourusername/yourrepository.git`
-2. Check out the relevant branch:  
-   `git checkout branch-name`
-3. Explore the project and start contributing!
+### Project Files
+The project consists of the following files:
 
-Let’s work together to make the digital world more secure. 💻🔒
+- **index.html:** The HTML file containing the user interface and embedded JavaScript code.
+- **style.css:** The CSS file for styling the page.
+- **script.js:** The JavaScript file containing the implementation of the Caesar encryption algorithm.
+- **README.md:** The README file with information about the project and how to use it.
+## Browser Support
+This Caesar encryption/decryption tool from FELKTEK should work fine in most modern browsers that support JavaScript. No additional libraries or frameworks are required.
+
+## License
+This project is licensed under the MIT License. You can modify and use the code as you wish.
+
+## Acknowledgements
+This project is inspired by the concept of the Caesar cipher and was created for educational purposes.
