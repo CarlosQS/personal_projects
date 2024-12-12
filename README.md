@@ -26,10 +26,10 @@ To decrypt the ciphertext "KROD" with an offset of 3, the plaintext "HELLO" will
 ### Project Files
 The project consists of the following files:
 
-- index.html: The HTML file containing the user interface and embedded JavaScript code.
-- style.css: The CSS file for styling the page.
-- script.js: The JavaScript file containing the implementation of the Caesar encryption algorithm.
-- README.md: The README file with information about the project and how to use it.
+- **index.html:** The HTML file containing the user interface and embedded JavaScript code.
+- **style.css:** The CSS file for styling the page.
+- **script.js:** The JavaScript file containing the implementation of the Caesar encryption algorithm.
+- **README.md:** The README file with information about the project and how to use it.
 ## Browser Support
 This Caesar encryption/decryption tool from FELKTEK should work fine in most modern browsers that support JavaScript. No additional libraries or frameworks are required.
 
