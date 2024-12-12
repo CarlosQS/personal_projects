@@ -1,5 +1,5 @@
 # FELKTEK
-This project is a simple implementation of the Caesar encryption and decryption algorithm using HTML, CSS, and JavaScript. Caesar cipher is a type of substitution encryption that replaces each letter in the plaintext with a letter that is a specified number of positions ahead or behind in the alphabet.
+This project is a simple implementation of the Caesar encryption and decryption algorithm using HTML, CSS, and JavaScript. Caesar cipher is a type of substitution encryption that replaces each letter in the plaintext with a letter that is a specified number of positions ahead or behind in the alphabet 🔄
 
 ## How to Use
 To use FELKTEK's Caesar encryption/decryption tool, follow these steps:
