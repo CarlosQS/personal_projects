@@ -4,11 +4,10 @@
 This is a simple keylogger program designed to record keystrokes and save them to a log file on the local computer. It supports the three major operating systems: Windows, Mac, and Linux.  
 
 ## Contents  
-- [Windows installation guide](https://github.com/CarlosQS/LIKO---Project-3/blob/master/windows/README.md)  
-- [Mac installation guide](https://github.com/GiacomoLaw/Keylogger/blob/master/mac/README.md)  
-- [Linux installation guide](https://github.com/GiacomoLaw/Keylogger/blob/master/linux/README.md)  
-- [More information](https://simple-keylogger.github.io/)  
-
+- [Windows installation guide](https://github.com/CarlosQS/personal_projects/blob/LIKO---Project-3/windows/README.md)  
+- [Mac installation guide](https://github.com/CarlosQS/personal_projects/blob/LIKO---Project-3/mac/README.md)  
+- [Linux installation guide](https://github.com/CarlosQS/personal_projects/blob/LIKO---Project-3/linux/README.md)
+  
 For more details, check the `README.md` file in each program's folder.  
 
 ## Windows  
