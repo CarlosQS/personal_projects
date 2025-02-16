@@ -1,7 +1,7 @@
 
-# RecoverPy
+# QERTEP
 
-RecoverPy is a robust utility that utilizes your system's features to recover lost data.
+QERTEP is a robust utility that utilizes your system's features to recover lost data.
 
 Unlike other tools, it can not only recover deleted files but also **overwritten** data.
 
@@ -25,12 +25,12 @@ It scans every block of your partition, and you can even search for specific str
 
 ## Setup
 
-:penguin: Currently, RecoverPy is available exclusively on Linux systems.  
+:penguin: Currently, quertep is available exclusively on Linux systems.  
 :red_circle: **You need root access or to use sudo**.
 
 ### Dependencies
 
-**Required:** To list and search through partitions, recoverpy relies on the `grep`, `dd`, and `lsblk` commands. These tools should already be present on most major Linux distributions.
+**Required:** To list and search through partitions, quertep relies on the `grep`, `dd`, and `lsblk` commands. These tools should already be present on most major Linux distributions.
 
 **Optional:** To show real-time progress of the `grep` command, you can install `progress`.
 
@@ -44,17 +44,17 @@ To install the necessary dependencies:
 
 ### Run with uvx
 
-`sudo uvx recoverpy`
+`sudo uvx quertep`
 
 ### Run with pipx
 
-`sudo pipx run recoverpy`
+`sudo pipx run quertep`
 
 ### Installation via pip
 
-`python3 -m pip install recoverpy`
+`python3 -m pip install quertep`
 
-Then run `sudo python3 -m recoverpy`
+Then run `sudo python3 -m quertep`
 
 ---
 
