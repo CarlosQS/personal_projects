@@ -51,3 +51,11 @@ $ ~/Keylogger/linux$ fg
 The stop the keylogger:
 - Use `fg` followed by `CTRL+C`
 - Or terminate de process with `kill {PID}`,e.g., `kill 12529`
+
+### Uses
+
+#### Personal Control and File Backup
+Monitoring unauthorized usage of the computer
+
+#### Self-analysis
+Reviewing one's own typing habits or activities
