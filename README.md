@@ -60,4 +60,4 @@ Monitoring unauthorized usage of the computer
 #### Self-analysis
 Reviewing one's own typing habits or activities
 
-Distributed under the MIT license. For more information, see the LICENSE(https://github.com/CarlosQS/personal_projects/blob/LIKO---Project-3/LICENSE.txt).
+Distributed under the MIT license. For more information, see the [LICENSE](https://github.com/CarlosQS/personal_projects/blob/LIKO---Project-3/LICENSE.txt).
