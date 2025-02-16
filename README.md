@@ -1,3 +1,12 @@
+
+# RecoverPy
+
+RecoverPy is a robust utility that utilizes your system's features to recover lost data.
+
+Unlike other tools, it can not only recover deleted files but also **overwritten** data.
+
+It scans every block of your partition, and you can even search for specific strings within binary files.
+
 * [Demo](#Demo)
 * [Installation](#Installation)
     * [Dependencies](#dependencies)
@@ -7,17 +16,6 @@
 * [Usage](#Usage)
 * [Tips](#Tips)
 
-<!--te-->
-
----
-
-# RecoverPy
-
-RecoverPy is a robust utility that utilizes your system's features to recover lost data.
-
-Unlike other tools, it can not only recover deleted files but also **overwritten** data.
-
-It scans every block of your partition, and you can even search for specific strings within binary files.
 
 ## Demo
 
