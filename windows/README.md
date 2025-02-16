@@ -1,15 +1,15 @@
-## Windows
-To change visibility of the window set the `#define` in line 13 to `visible` or `invisible`.
+## Windows  
+To adjust the visibility of the window, modify the `#define` on line 13 to either `visible` or `invisible`.  
 
-Simply compile into an .exe, and then run. Visual Studio is good for this.
+Compile it into an `.exe` file and then execute it. Using Visual Studio is recommended for this task.  
 
-- `invisible` makes the window of the logger disappear, and it also starts up hidden from view. Note that it is still visible in the task manager.
-- `visible` is visible, and the window does not close when typing. Great for testing it out.
+- `invisible`: The logger's window will not be displayed, and it starts running in the background. However, it remains visible in the task manager.  
+- `visible`: The window stays open while typing, making it useful for testing purposes.  
 
-Both of these save the keystrokes to a .txt file when closed.
+In both modes, keystrokes are saved to a `.txt` file when the program is closed.  
 
 ---
 
-Please feel free to contribute to fix any problems!
+Contributions to resolve issues are welcome!  
 
-Please note, this repo is for educational purposes only. No contributors are to fault for any actions done by this program.
+This repository is intended for educational use only. The creators are not responsible for any misuse of this software.  
