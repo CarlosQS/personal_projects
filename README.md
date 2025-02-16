@@ -1,31 +1,3 @@
-<div align="center">
-    <img src="docs/assets/logo.png" alt="RecoverPy">
-</div>
-
-<p align="center">
-    <em>Recover overwritten or deleted data.</em>
-</p>
-
-<p align="center">
-<a href="https://img.shields.io/github/v/release/pablolec/recoverpy" target="_blank">
-    <img src="https://img.shields.io/github/v/release/pablolec/recoverpy" alt="Release">
-</a>
-<a href="https://github.com/PabloLec/recoverpy/blob/main/LICENSE" target="_blank">
-    <img src="https://img.shields.io/github/license/pablolec/recoverpy" alt="License">
-</a>
-<a href="https://pepy.tech/project/recoverpy" target="_blank">
-    <img src="https://static.pepy.tech/personalized-badge/recoverpy?period=total&units=abbreviation&left_color=grey&right_color=red&left_text=downloads" alt="Downloads">
-</a>
-
-<a href="#" target="_blank">
-    <img src="https://github.com/PabloLec/recoverpy/actions/workflows/pytest.yml/badge.svg?branch=main" alt="Tests">
-</a>
-</p>
-
----
-
-<!--ts-->
-
 * [Demo](#Demo)
 * [Installation](#Installation)
     * [Dependencies](#dependencies)
@@ -34,7 +6,6 @@
     * [Installation from AUR](#installation-from-aur)
 * [Usage](#Usage)
 * [Tips](#Tips)
-* [Contributing](#Contributing)
 
 <!--te-->
 
@@ -42,11 +13,11 @@
 
 # RecoverPy
 
-RecoverPy is a powerful tool that leverages your system capabilities to recover lost files.
+RecoverPy is a robust utility that utilizes your system's features to recover lost data.
 
-Unlike others, you can not only recover deleted files but also **overwritten** data.
+Unlike other tools, it can not only recover deleted files but also **overwritten** data.
 
-Every block of your partition will be scanned. You can even find a string in binary files.
+It scans every block of your partition, and you can even search for specific strings within binary files.
 
 ## Demo
 
@@ -56,19 +27,18 @@ Every block of your partition will be scanned. You can even find a string in bin
 
 ## Setup
 
-:penguin: RecoverPy is currently only available on Linux systems.  
-:red_circle: **You must be root or use sudo**.
+:penguin: Currently, RecoverPy is available exclusively on Linux systems.  
+:red_circle: **You need root access or to use sudo**.
 
 ### Dependencies
 
-**Mandatory:** To list and search through your partitions, recoverpy uses `grep`, `dd`, and `lsblk` commands. Although,
-if you're running a major Linux distrucition these tools should already be installed.
+**Required:** To list and search through partitions, recoverpy relies on the `grep`, `dd`, and `lsblk` commands. These tools should already be present on most major Linux distributions.
 
-**Optional:** To display real time grep progress, you can install `progress`.
+**Optional:** To show real-time progress of the `grep` command, you can install `progress`.
 
-To install all dependencies:
+To install the necessary dependencies:
 
-- Debian-like: `apt install grep coreutils util-linux progress`
+- Debian-based: `apt install grep coreutils util-linux progress`
 - Arch: `pacman -S grep coreutils util-linux progress`
 - Fedora: `dnf install grep coreutils util-linux progress`
 
@@ -82,47 +52,39 @@ To install all dependencies:
 
 `sudo pipx run recoverpy`
 
-### Installation from pip
+### Installation via pip
 
 `python3 -m pip install recoverpy`
 
-then run `sudo python3 -m recoverpy`
+Then run `sudo python3 -m recoverpy`
 
 ---
 
-- **Select the system partition** in which your file was. If you are out of luck, you can alternatively search in your
-  home partition, maybe your IDE, text editor, etc. made a backup at some point.
+- **Choose the system partition** where your file was stored. If you can't find it there, you can search your home partition, as sometimes your IDE or text editor may have made backups.
 
-- **Type a text string to search**. See tips below for better results.
+- **Enter a text string to search for**. See the tips below for better search results.
 
-- **Start search**, Results will appear in the left-hand box.
+- **Start the search**, and the results will appear in the left-hand panel.
 
-- **Select a result**.
+- **Pick a result**.
 
-- Once you have found your precious, **select `Open`**.
+- Once you have found your file, **click `Open`**.
 
-- You can now either save this block individually or explore neighboring blocks for the remaining parts of the file. You
-  could then save it all in one file.
+- You can now either save the block individually or explore adjacent blocks to find the remaining parts of the file. You can then save everything into one file.
 
 ## Tips
 
-- Always do backups! Yes, maybe too late...
-- **Unmount your partition before you do anything!** Although you can search with your partition still mounted, it is
-  highly recommended to unmount your partition to avoid any alteration to your file.
+- Always make backups! Yes, we know, it's probably too late...
+- **Unmount your partition before doing anything!** Although you can search with your partition mounted, it's highly recommended to unmount it first to prevent any accidental modifications to your file.
 
-Regarding the searched string:
+Regarding the search string:
 
-- Be concise, find something that could be unique to your file.
-- Stay simple, your string is escaped but exotic characters may affect your results.
-- Try to remember the last edit you have made to your file.
+- Keep it simple, try to use something unique to your file.
+- Avoid using complex strings, as exotic characters may affect the search results.
+- Try to remember the last changes you made to the file.
 
-When you have found your file:
+When you find your file:
 
-- You might see multiple results. Your system often use different partion blocks to save successive versions of a file.
-  Make sure you've found the last version.
-- Try exploring neighboring blocks to be sure to save your whole file.
-
-## Contributing
-
-Thank you for considering contributing to RecoverPy.
-Any request, bug report or PR are welcome. Please read the [contributing guide](CONTRIBUTING.md).
+- You may find multiple results. Your system often stores different versions of a file in separate partition blocks.
+  Ensure you have located the most recent version.
+- Explore surrounding blocks to confirm that you have recovered the entire file.
